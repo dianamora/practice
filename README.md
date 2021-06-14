@@ -1,24 +1,25 @@
-# README
+# The Model View Controller (MVC) Pattern, and other notes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+GET /about HTTP/1.1
+Host: 127.0.0.1
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Routes
+Matchers for the URL that is requested
 
-* Configuration
+GET for "/about"
+* I see you requested "/about", we'll give that to the controller which should be named AboutController to handle
 
-* Database creation
+## Models
 
-* Database initialization
 
-* How to run the test suite
+## Views 
+Your response body content
+* HTML
+* CSV
+* PDF
+* XML
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Controllers
+Decide how to process a request and define a response
